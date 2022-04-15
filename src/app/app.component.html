@@ -1,0 +1,22 @@
+<div class="container">
+  <input type="text" class="form-control" [(ngModel)]="carName">
+  <input type="text" class="form-control" [(ngModel)]="carColor">
+  <hr>
+  <button class="btn btn-add" (click)="addCar()">Add car</button>
+  <button class="btn btn-download" (click)="loadCars()">Download cars</button>
+  <hr>
+  <ul class="list-group">
+    <li class="list-group-item" *ngFor="let car of cars">
+      <div>
+      <span class="badge" [ngStyle]="{'background': car.color}">
+        {{car.id}}.
+      </span>
+      {{car.name}}
+    </div>
+    <div class="btns">
+      <button class="btn btn-change" (click)="setNewColor(car)">Change color</button>
+      <button class="btn btn-delete" (click)="deleteCar(car)">Delete</button>
+    </div>  
+    </li>
+  </ul>
+</div>

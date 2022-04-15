@@ -1,0 +1,113 @@
+/* input.ng-invalid.ng-touched, select.ng-invalid.ng-touched {
+  border: 1px solid red;
+} */
+p{
+  color: white;
+  width: 71%;
+  background-color: rgba(211, 98, 98, 0.801);
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding-left: 3px;
+}
+
+.container{
+width: 100%;
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-content: center;
+align-items: center;
+}
+hr{
+  color: gray;
+}
+form{
+  width: 70%;
+}
+.cars{
+
+}
+.btn-change{
+  width: 100px;
+  margin-right: 5px;
+  background-color:rgb(219, 170, 79);
+}
+.btn-download{
+  width: 250px;
+background-color: rgb(63, 63, 216);
+}
+.btn-add{
+  width: 250px;
+  background-color: green;
+}
+.btn-delete{
+  width: 100px;
+  background-color: rgb(223, 39, 39);
+}
+.form-group{
+  width: 70%;
+  margin-top: 10px;
+}
+input{
+  height: 30px;
+  margin-top: 10px;
+  padding-left: 3px;
+  
+}
+label{
+  font-weight: bold;
+
+}
+
+
+.form-control{
+  display: block;
+  width: 70%;
+
+}
+li{
+  margin-bottom: 20px;
+}
+.list-group{
+  list-style: none;
+  padding-left: 0;
+  height: auto;
+  min-height: 30px;
+  width: 400px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding-left: 100px;
+  padding-top: 12px;
+  box-sizing: border-box;
+}
+.btn-success{
+  color: white;
+  background-color: green;
+}
+.btn-success:disabled{
+  background-color: rgb(79, 201, 79);
+}
+.btn{
+  border:  none;
+  border-radius: 5px;
+  height: 30px;
+ 
+  color: white;
+
+  margin-top: 20px;
+}
+.badge{
+   
+
+  min-width:10px;
+  min-height:10px;
+  line-height:10px;
+  padding:5px;
+  color:#fff;
+  background-color:grey;
+  font-size:10px;
+  border-radius:20px;
+  margin-right: 10px;
+  border:solid 1px grey;  
+}
+ 
